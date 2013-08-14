@@ -6,7 +6,7 @@ class databaseClass extends PDO
 	  private $port = 3306;
           private $database = 'pdo';
           private $user = 'root';
-          private $pass = 'bernardino1';
+          private $pass = '';
           private $dns;
           private $DbPrefix = 'prk_';
           private $file;
