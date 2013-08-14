@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+/*body*/
+ body{ 
+              background-position: 0% 0%;
+          background-size: auto auto;
+          background-repeat: repeat repeat;
+            background-clip: border-box;
+         background-origin: padding-box;
+         background-attachment: scroll;
+              padding:0; 
+       background-image: url('../images/bg01.jpg');
+	  width:100%;height:100%;
+  /* background-repeat : repeat-x;
+    background-image: url('../images/bg01.jpg');background-repeat:no-repeat;
+  */
+  }
+
+.gora{
+margin-left: 20%;margin-top:1px; width:80%;height:100%;
+}
+   /*content*/
+.content{margin-bottom:5px;width:61%; height:99%; min-height:350px; border:2px solid #000; background-color:#e9e9e6;-khtml-border-radius: 3px; border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;opacity: .90;}
+.content1{width:100%;height:95%;border:2px solid #000;background-color:#e9e9e6;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;min-width:30%; max-width:60%;color:#000;}
+.content_napisy{ color:#000; text-align:left; font-size:14px;}
+
+/*body srodek*/
+.body_srod{width:98%; height:89%; overflow: auto;}
+
+   /*menu*/
+
+#menu {zoom:1; border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;-khtml-border-radius: 5px;
+                     -webkit-border-bottom-left-radius:5px;
+            -webkit-border-top-left-radius:5px;
+            -moz-border-radius-bottomleft:5px;
+            -moz-border-radius-topleft:5px;
+width: 61%;height: 50px; text-align:center; margin: 0;padding: 0; position: relative; overflow: hidden; text-align: center;}
+#menu div span {zoom:1; display: inline; list-style: none;} 
+#menu div {height: 5px;background-color: #29A4E1; list-style: none; margin: 0;padding: 0;}
+#menu a { float: left;height: 25px;padding: 15px 15px 0 15px; text-decoration: none; font-size:16px; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;font-weight: bold;color: #29A4E1;position: relative;text-align: center;}
+
+#menu a:hover{
+	background-color: #DCDCDC; border: 2px solid #FF5;  border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;-khtml-border-radius: 5px;
+                     -webkit-border-bottom-left-radius:5px;
+            -webkit-border-top-left-radius:5px;
+            -moz-border-radius-bottomleft:5px;
+            -moz-border-radius-topleft:5px;
+            height: 25px;
+}
+#menu  a:active {
+	background-color: #98e3f9;
+	border-top-color:#29A4E1;
+}
+
+#menu a {
+	text-decoration: underline;
+} 
+   
+   
+.text{  padding-top:15px;   }  
+.green{background:#6AA63B;position:absolute;left:1px; top:12px; }  
+.yellow{background:#FBC700;position:absolute;left:141px;top:12px;}  
+.red{background:#D52100;position:absolute;left:281px; top:12px;}  
+.purple{background:#5122B4;position:absolute;left:421px;  top:12px;}  
+.blue{background:#0292C0;position:absolute;left:561px; top:12px;} 
+.black{background:#000000;position:absolute;left:701px;  top:12px;} 
+.brown{background:#330000;position:absolute;left:841px; top:12px;}
+.menu_jq {position:absolute;left:100px;top:0px; width:450px; margin:90px 90px; padding:0;} /* background:url(images/logo.gif) no-repeat left 12px; */
+
+  /*pokoje*/
+.pokoje{width:100%;height:70px;list-style: none; display: inline; margin-left:17%; text-align:center; border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;min-width:10%; max-width:58%;color:#000;}
+
+/*chatpubliczny*/
+.chatpubliczny{width:47%;height:90%;background-color:#fff9c9; text-align:center;border:2px solid #000; border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;color:#000;}
+
+
+/********** contact form **********/
+#contactform_2 { margin:0; padding:5px 10px;}
+#contactform_2 * {  }
+#contactform_2 ol { margin:0; padding:0; list-style:none; }
+#contactform_2 li { margin:0; padding:0; background:none; border:none; display:block; clear:both;}
+#contactform_2 li.buttons { margin:5px 0 5px 0;}
+#contactform_2 label { margin:0; width:110px; display:block; padding:10px 0; color:#666; font: normal 12px verdana, Helvetica, sans-serif; text-transform:capitalize; float:left; }
+#contactform_2 label span { color:#F00; }
+#contactform_2 input.text { width:480px; border:1px solid #c0c0c0; margin:2px 0; padding:5px 2px; height:30px; background:#fff; float:left; }
+#contactform_2 input.textt { width:480px; border:1px solid #c0c0c0; margin:2px 0; padding:5px 2px; height:30px; background:#fff; float:left; }
+#contactform_2 textarea { width:480px; border:1px solid #c0c0c0; margin:2px 0; padding:2px; background:#fff; float:left; }
+#contactform_2 li.buttons input {cursor:pointer; border:1px solid #000; background:#ea7d1b; padding:10px; margin:10px 0 0 110px; color:#fff; float:left; font: normal 14px verdana, Helvetica, sans-serif;}
+p.response { text-align:center; color:#F00; font: normal 11px Georgia, "Times New Roman", Times, serif; line-height:1.8em; width:auto; }
+
+#contactform_3 { margin:0; padding:5px 10px; }
+#contactform_3 a { color:#000000; text-decoration:none; font: verdana}
+#contactform_3 a:hover { color:#006600; text-decoration:none; font: verdana}
+#contactform_3 * { color:#FF9900; }
+#contactform_3 ol { margin:0; padding:0; list-style:none; }
+#contactform_3 li { margin:0; padding:0; background:none; border:none; display:block; clear:both; }
+#contactform_3 li.buttons { margin:5px 0 5px 0; }
+#contactform_3 label { margin:0; width:110px; display:block; padding:10px 0; color:#666; font: normal 12px verdana, Helvetica, sans-serif; text-transform:capitalize; float:left; }
+#contactform_3 label span { color:#F00; }
+#contactform_3 input.text { width:220px; height:30px; border:1px solid #c0c0c0; margin:2px 0; padding:5px 2px; background:#fffCC; float:left; color:green; }
+#contactform_3 textarea { width:480px; border:1px solid #c0c0c0; margin:2px 0; padding:2px; background:#fff; float:left; }
+#contactform_3 li.buttons input { border:1px solid #000; cursor:pointer; background:#ea7d1b; padding:10px; margin:10px 0 0 0px;  color:#fff; float:left; font: normal 14px verdana, Helvetica, sans-serif;}
+p.response { text-align:center; color:#F00; font: normal 11px Georgia, "Times New Roman", Times, serif; line-height:1.8em; width:auto; }
+  
+/* - panel logowania - */
+.zaloguj{text-align:center; margin: 0.1% 0.1% 0.01% 30%;}
+.loguj_yello{text-align:left; min-width:10%; max-width:42%;}
+.loguj_submit{margin-right:5px; background-position:top; background-color:#3ba0ca; border:2px solid #5a625c; color:#2ffc69;cursor: pointer; width:20%;height:7%;-moz-border-radius:7px;border-radius:7px;text-shadow:1px 1px 1px #fff; margin-top:5px;margin-bottom:5px;padding:8px 5px}
+.loguj_div{background-position:top;background-color:#92D6ED;border:2px solid #2FADD7;color:#3158BB;cursor: pointer; width:500px; height:50%; -moz-border-radius:7px;border-radius:7px;text-shadow:1px 1px 1px #fff;margin-top:0px;margin-bottom:5px;padding:8px 5px}
+.loguj_div_body{background-position:top;background-color:#92D6ED;border:2px solid #2FADD7;color:#3158BB;width:90%; height:550px;-moz-border-radius:7px;border-radius:7px;text-shadow:1px 1px 1px #fff;margin-top:0px;margin-bottom:5px;padding:8px 5px}
+.submit_from_1{display: inline;cursor: pointer; text-align:right; color:#000; font: normal 10px Georgia, "Times New Roman", Times, serif; width:10%;}
+.loguj_input{background-position:top;color:#3158BB;background-color:#92D6ED; border:2px solid #2FADD7; cursor: pointer;-moz-border-radius:7px;border-radius:7px; margin-top:5px;margin-bottom:5px;padding:8px 5px; width:22%; height:7%;}
+
+/* - rejestracja - */
+.rejest_submit{float:right;background-position:top; background-color:#92D6ED;border:2px solid #2FADD7;color:#3158BB;cursor: pointer;width:75px;-moz-border-radius:7px;border-radius:7px;text-shadow:1px 1px 1px #fff;margin-right:20px; margin-top:5px;margin-bottom:5px;padding:8px 5px}
+.rejest_yello1{text-align:left;border:1px solid #c7bf93; border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;min-width:50px;max-width:25%;color:#000;text-shadow:1px 1px 1px #ddd;background-color:#fff9c9;padding:6px 8px}
+
+/* - Przypomnij Hasło - */
+.przyp_submit{float:right;background-position:top; background-color:#92D6ED;border:2px solid #2FADD7;color:#3158BB;cursor: pointer;width:75px;-moz-border-radius:7px;border-radius:7px;text-shadow:1px 1px 1px #fff;margin-right:20px; margin-top:50%;margin-bottom:5px;padding:8px 5px}
+.przyp_yello1{text-align:left;border:1px solid #c7bf93; border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;min-width:50px;max-width:25%;color:#000;text-shadow:1px 1px 1px #ddd;background-color:#fff9c9;padding:6px 8px}
+
+
+/*-- stopka --*/
+.div-stopka{margin-top:0.3%;}
+
+#stopka_dol{
+             width:61%; 
+             height:100px;
+             position: relative;
+                 font-size: 0.9em;
+		 border-radius: 5px;
+	      -moz-border-radius: 5px;
+              -webkit-border-radius: 5px;
+              -khtml-border-radius: 5px;
+             -webkit-border-bottom-left-radius:5px;
+            -webkit-border-top-left-radius:5px;
+            -moz-border-radius-bottomleft:5px;
+            -moz-border-radius-topleft:5px;
+            border-bottom-left-radius:5px;
+            border-top-left-radius:5px;
+	        -webkit-border-bottom-right-radius:5px;
+            -webkit-border-top-right-radius:5px;
+            -moz-border-radius-bottomright:5px;
+            -moz-border-radius-topright:5px;
+            border-bottom-right-radius:5px;
+            border-top-right-radius:5px;
+	    border: 5px solid #FF5;
+            background: rgb(46,174,240);
+            color: rgb(0, 0, 0);
+           background-image: none 
+}
+.stopka{text-align:center;margin-top: 10px; }
