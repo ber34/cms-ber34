@@ -6,8 +6,6 @@
     <head>
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script> 
-    <script type="text/javascript" src="template/js/jquery.js" ></script>
-    <script type="text/javascript" src="template/js/admin_menu.js" ></script>
     </head>
  <body>
 <?php
