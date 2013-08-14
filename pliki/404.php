@@ -1,0 +1,3 @@
+<?php
+?>
+Plik nie istnieje
