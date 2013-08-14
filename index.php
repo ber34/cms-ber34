@@ -4,11 +4,8 @@ echo '<!doctype html>
 <html lang="pl"><head>';
   $czas_start = (float)microtime();                        
    include_once (dirname(__FILE__) . '/'.basename('router.php'));
-     /// print_r($_SESSION);
 ?>
- <!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+
 </head><body>
 <div class="gora">         
 <?php
