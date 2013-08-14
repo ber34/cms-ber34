@@ -1,11 +1,12 @@
 <?php
   session_start();
+    $czas_start = (float)microtime();                        
+ include_once (dirname(__FILE__) . '/'.basename('router.php'));
+     /// print_r($_SESSION);
 echo '<!doctype html>
 <html lang="pl"><head>';
-  $czas_start = (float)microtime();                        
-   include_once (dirname(__FILE__) . '/'.basename('router.php'));
+include_once (dirname(__FILE__) . '/template/'.basename('meta.php'));
 ?>
-
 </head><body>
 <div class="gora">         
 <?php
