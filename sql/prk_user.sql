@@ -8,6 +8,7 @@
 -- Struktura tabeli dla tabeli `prk_user`
 --
 
+
 CREATE TABLE IF NOT EXISTS `prk_user` (
   `u_id` int(11) NOT NULL AUTO_INCREMENT,
   `u_login` varchar(55) NOT NULL,
@@ -22,7 +23,8 @@ CREATE TABLE IF NOT EXISTS `prk_user` (
   `u_protokul` varchar(55) NOT NULL,
   `u_admin` int(11) NOT NULL DEFAULT '0',
   `u_zalogowany` int(11) NOT NULL DEFAULT '0',
+  `u_agent` varchar(255) NOT NULL,
   PRIMARY KEY (`u_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;
 
 
